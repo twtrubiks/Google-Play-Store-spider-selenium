@@ -3,7 +3,7 @@
 
 並使用 SQLite 儲存 DB
 
-* [Youtube Demo]()   
+* [Youtube Demo](https://youtu.be/bNTj-CtwX1w)
  
 這個專案和 [Google-Play-Store-spider-bs4-excel](https://github.com/twtrubiks/Google-Play-Store-spider-bs4-excel) 類似，但這專案是使用  [Selenium](http://selenium-python.readthedocs.io/index.html) 結合  [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)。
 

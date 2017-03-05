@@ -12,7 +12,6 @@ head = 'https://play.google.com'
 
 
 def setbrower():
-
     ## Firefox
     profile = webdriver.FirefoxProfile()
     profile.accept_untrusted_certs = True
@@ -113,22 +112,6 @@ def WriteDB(information):
         )
         db.session.add(insert_data)
     db.session.commit()
-
-
-def main():
-    # # 如果資料庫已經存在則移除
-    # if os.path.exists(filename):
-    #     os.remove(filename)
-
-    # browser = webdriver.Firefox("D:\temp\geckodriver.exe")
-
-    # chromedriver = "/Users/adam/Downloads/chromedriver"
-    # os.environ["webdriver.chrome.driver"] = chromedriver
-    # driver = webdriver.Chrome(chromedriver)
-    # driver = webdriver.Firefox()
-
-    # chromedriver = "chromedriver.exe"
-    print()
 
 
 if __name__ == "__main__":
