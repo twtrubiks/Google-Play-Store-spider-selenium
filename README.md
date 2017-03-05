@@ -5,7 +5,11 @@
 
 * [Youtube Demo]()   
  
-這個專案和 [Google-Play-Store-spider-bs4-excel](https://github.com/twtrubiks/Google-Play-Store-spider-bs4-excel) 類似，但這專案是使用  [Selenium](http://selenium-python.readthedocs.io/index.html) 結合  [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+這個專案和 [Google-Play-Store-spider-bs4-excel](https://github.com/twtrubiks/Google-Play-Store-spider-bs4-excel) 類似，但這專案是使用  [Selenium](http://selenium-python.readthedocs.io/index.html) 結合  [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)。
+
+之前我也介紹過 Selenium 的範例，可參考 [youtube-trends-spider](https://github.com/twtrubiks/youtube-trends-spider)，
+
+因為 [Selenium](http://selenium-python.readthedocs.io/index.html) 有更新加上之前是使用python 2.7，寫法上也有點不同，所以這次使用 python 3.4.3 重新簡單介紹。
 
 ## 特色
 * 透過 [Selenium](http://selenium-python.readthedocs.io/index.html) + [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) 抓取  [Google Play Store topselling_new_free ](https://play.google.com/store/apps/category/BOOKS_AND_REFERENCE/collection/topselling_new_free)資料。
